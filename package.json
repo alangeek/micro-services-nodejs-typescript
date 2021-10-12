@@ -1,0 +1,18 @@
+{
+  "name": "micro-services-authentication",
+  "version": "1.0.0",
+  "description": "Microservices build nodejs",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./",
+    "build": "tsc -p ."
+  },
+  "author": "Alan Christian",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.10.4",
+    "nodemon": "^2.0.13",
+    "typescript": "^4.4.4"
+  }
+}
